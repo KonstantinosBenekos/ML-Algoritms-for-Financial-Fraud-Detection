@@ -10,7 +10,7 @@ forest, logistic regression and support vector machines. The dataset utilized wa
 obtained from Kaggle and includes data regarding 287,807 credit card transactions which were conducted by European card holders over a two day period in
 September of 2013.
 
-After following standard data prepossessing procedures we continue by addressing the issue of imbalance in the data by proposing a resampling technique
+After following standard data prepossessing procedures we continue by addressing the issue of imbalance in the data by proposing a resampling technique
 which entails under sampling the majority(non-fraud) class in order to create ten
 distinct balanced subsets of data, each of which captures a different aspect of the
 majority data. The models are then trained on each of the subsets separately and
