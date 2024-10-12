@@ -2,12 +2,14 @@
 Master Thesis
 
 
-Abstract
+# Abstract
+
 This here study explores the effectiveness of machine learning algorithms in
 detecting credit card fraud. Specifically, the algorithms evaluated include random
 forest, logistic regression and support vector machines. The dataset utilized was
 obtained from Kaggle and includes data regarding 287,807 credit card transactions which were conducted by European card holders over a two day period in
 September of 2013.
+
 After following standard data prepossessing procedures we continue by addressing the issue of imbalance in the data by proposing a resampling technique
 which entails under sampling the majority(non-fraud) class in order to create ten
 distinct balanced subsets of data, each of which captures a different aspect of the
@@ -19,6 +21,7 @@ evaluated the models both from a quantitative perspective leveraging metrics suc
 as accuracy, recall, precision, F1 scores and most importantly ROC-AUC scores
 as well as in business context in the sense of how applicable/useful they would be
 in a real world scenario.
+
 The results revealed that while all models trained on the balanced subsets
 performed fairly well in terms of accuracy, recall and ROC-AUC scores they were
 all severely lacking in precision, something which in the fraud detection context
