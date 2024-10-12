@@ -7,7 +7,7 @@ Master Thesis
 This here study explores the effectiveness of machine learning algorithms in
 detecting credit card fraud. Specifically, the algorithms evaluated include random
 forest, logistic regression and support vector machines. The dataset utilized was
-obtained from Kaggle and includes data regarding 287,807 credit card transactions which were conducted by European card holders over a two day period in
+obtained from Kaggle and includes data regarding 287,807 credit card transactions which were conducted by European card holders over a two day period in
 September of 2013.
 
 After following standard data prepossessing procedures we continue by addressing the issue of imbalance in the data by proposing a resampling technique
@@ -37,6 +37,6 @@ as it not needing any prior assumption of the distribution of the data. For thos
 reason we concluded that logistic regression arose as the most well suited model
 for fraud prediction in this particular data set.
 
-Keywords: Credit card fraud, fraud detection, machine learning, logistic regression, random forest, support vector machines, data imbalanc
+Keywords: Credit card fraud, fraud detection, machine learning, logistic regression, random forest, support vector machines, data imbalanc
 
 Load the data set: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
